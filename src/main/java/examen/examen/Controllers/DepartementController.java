@@ -21,7 +21,7 @@ public class DepartementController {
         this.universitéRepository=universitéRepository;
     }
 
-    @GetMapping("/all_all")
+    @GetMapping("/all_")
     public List<Departement> getAll(){
         return departementRepository.findAll();
     }
