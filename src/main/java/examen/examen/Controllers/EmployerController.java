@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/employee")
+@RequestMapping("/empl")
 public class EmployerController {
     private final EmployerRepository employerRepository;
 
