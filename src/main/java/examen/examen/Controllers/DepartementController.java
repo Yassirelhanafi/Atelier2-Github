@@ -11,7 +11,7 @@ import java.util.List;
 import java.util.Optional;
 
 @RestController
-@RequestMapping("/departement")
+@RequestMapping("/depart")
 public class DepartementController {
     private final DepartementRepository departementRepository;
     private final UniversitéRepository universitéRepository;
